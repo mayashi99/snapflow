@@ -15,9 +15,10 @@ class User
 
     public function signUp($data)
     {
-        $this->db->query('INSERT INTO user (email, password) VALUES(:email, :password)');
+        $this->db->query('INSERT INTO user (email, password, role) VALUES(:email, :password, :role)');
         $this->db->bind(':email', $data['email']);
         $this->db->bind(':password', $data['password']);
+        $this->db->bind(':role', $data['role']);
 
         if ($this->db->execute()) {
             if ($data['role'] == 'ADMIN') {
@@ -64,6 +65,7 @@ class User
         $this->db->bind(':password', $data['password']);
 
         $userData = $this->db->single();
+        var_dump($userData);
 
         if ($userData->role == 'ADMIN') {
             $this->db->query('SELECT * FROM admin WHERE user_id = :id');

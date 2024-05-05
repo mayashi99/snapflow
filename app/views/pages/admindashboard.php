@@ -22,16 +22,13 @@
       <a href="<?php echo URLROOT ?>/PageController/about">About Us</a>
       <a href="<?php echo URLROOT ?>/PageController/packages">Packages</a>
     </div>
-    <div class="log">
-      <a href="<?php echo URLROOT ?>/PageController/signup">Signup</a>
-      <a href="<?php echo URLROOT ?>/PageController/signIn">Login</a>
-    </div>
-  </div>
+    
+  
 
     <div class="profile-container">
         <div class="profile">
         <img src="<?php echo URLROOT ?>/public/images/user.jpg" alt="user" width="50">
-            <span class="username">John Doe</span>
+            <span class="username"></span>
             <div class="dropdown-content">
                 <a href="#">Edit Profile</a>
                 <a href="#">Settings</a>
@@ -40,6 +37,7 @@
             </div>
         </div>
     </div>
+</div>
 </div>
 
 <h1>Admin Dashboard</h1>
