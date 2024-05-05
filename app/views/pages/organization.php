@@ -25,13 +25,14 @@
 
   <h1>Photography Organization</h1>
 
+
   <div class="testimonial-container">
 
   <?php foreach ($data as $organization) :  
   ?>
     <div class="testimonial">
-      <img src="<?php echo $organization->img_url; ?>">
-      <p class="testimonial-text"><?php echo $organization->description; ?></p>
+      <img src="<?php echo URLROOT ?>/public/organizationLogo/<?php echo $organization->img_url; ?>">
+      <p class="testimonial-text"><?php echo $organization->description; ?><?php echo $organization->img_url; ?></p>
 
       <span class="fa fa-star checked"></span>
       <span class="fa fa-star checked"></span>

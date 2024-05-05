@@ -118,6 +118,7 @@ display: none;
   .profile-container {
     position: relative;
     display: inline-block;
+    padding-right: 70px;
 }
 
 .profile {

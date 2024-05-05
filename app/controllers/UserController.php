@@ -94,7 +94,8 @@ class UserController extends Controller
                header('location:' . URLROOT . '/PageController/booking/');
                
             }
-            ;
+             ;
+           
         }
     }
 

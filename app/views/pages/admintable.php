@@ -13,11 +13,12 @@
       <img src="<?php echo URLROOT ?>/public/images/logo.png" alt="logo" width="120">
     </div>
     <div>
-      <a href="<?php echo URLROOT ?>/PageController/blog">Home</a>
+      <a href="<?php echo URLROOT ?>/PageController/homepage">Home</a>
       <a href="<?php echo URLROOT ?>/PageController/blog">Blog</a>
       <a href="<?php echo URLROOT ?>/PageController/about">About Us</a>
       <a href="<?php echo URLROOT ?>/PageController/packages">Packages</a>
     </div>
+
     <div class="profile-container">
         <div class="profile">
         <img src="<?php echo URLROOT ?>/public/images/user.jpg" alt="user" width="50">
@@ -25,12 +26,12 @@
             <div class="dropdown-content">
                 <a href="#">Edit Profile</a>
                 <a href="#">Settings</a>
-                <?php echo $_SESSION['email']  ?>
-<a href="<?php echo URLROOT ?>/PageController/logout">Logout</a>
+                <a href="<?php echo URLROOT ?>/PageController/logout">Logout</a>
             </div>
         </div>
     </div>
-  </div>
+</div>
+</div>
  
   <?php var_dump($data) ?>
 

@@ -1,5 +1,5 @@
 <?php
-
+// https://github.com/Nuwa-Hub/FlyBuy
 class Database{
 
     private $dbHost = DB_HOST;
