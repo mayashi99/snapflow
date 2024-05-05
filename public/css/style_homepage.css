@@ -1,0 +1,233 @@
+
+body {
+   margin: 0;
+   padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  box-sizing: border-box;
+}
+
+.topnav {
+  
+  background-color: #204369;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+ .topnav a {
+  float: center;
+  color: #def5f9;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  background-color: #cdcdd7;
+  color: rgb(20, 19, 19);
+  border-radius: 20%;
+}
+
+.topnav a.active {
+  background-color: #c3cfe1;
+  color: rgb(28, 28, 28);
+  border-radius: 20%;
+  
+} 
+.login-btn{
+display: none;
+}
+.signup-btn{
+ display: none;
+}
+.log{
+    color: black;
+    background-color: #204369;
+    text-align: right;
+    font-size: 20px;
+    float: right;
+    border-color: black;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 20%;
+    
+}
+
+.center {
+  position: sticky;
+  display: block;
+  object-fit: cover; 
+ 
+}
+
+.slideshow-container{
+  display: flexbox;
+}
+
+.test{
+  right: 800;
+  width: 16%;
+  text-align: 100px;
+  background-color: #204369;
+  
+}
+
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-size-adjust: 80px;
+  color: #110832;
+  background-color: rgb(227, 228, 227);
+  padding: 15px;
+  border-radius: 8px;
+  display: flexbox;
+}
+.data-input{
+  margin-right: 10px;
+  color: #0b0b0b;
+  background-color:  #c3cfe1;
+  padding: 10px 20px;
+  border-radius: 8px;
+  font-size: 25px;
+}
+.select-input{
+  color: #0a0909;
+  background-color:  #c3cfe1;
+  padding: 10px 20px;
+  border-radius: 8px;
+  font-size: 20px;
+  margin-right: 10px;
+}
+.search-btn{
+  color: #fcf9f9;
+  background-color:  #7796c4;
+  padding: 10px 10px;
+  border-radius: 8px;
+  font-size: 20px;
+
+}
+.text-block_1 {
+  position: absolute;
+  top: 50px;
+  right: 900px;
+  background-color: rgb(200, 155, 142);
+  color: rgb(253, 245, 245);
+  padding-left: 200px;
+  font-style: italic;
+  width: 40%;
+  height: 0px;
+  font-size: 28px;
+  display: flex;
+}
+.text-block_2 {
+  position: absolute;
+  bottom: 20px;
+  right: 1000px;
+  background-color: rgb(237, 245, 242);
+  color: rgb(9, 9, 9);
+  padding-left: 30px;
+  padding-right: 30px;
+  display: flexbox;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  border-radius: 8px;
+  padding-top: 20px;
+  
+  
+}
+
+/* Create four equal columns that sits next to each other */
+.column {
+  flex: 20%;
+  padding: 0 4px;
+  border-radius: 8px;
+}
+
+.column img {
+  margin-top: 0px;
+  vertical-align: middle;
+  width: 100%;
+  border-radius: 8px;
+}
+
+/* Responsive layout - makes a two column-layout instead of four columns */
+@media screen and (max-width: 800px) {
+  .column {
+    flex: 50%;
+    max-width: 50%;
+  }
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column {
+    flex: 100%;
+    max-width: 100%;
+  }
+}
+
+.h2{
+  font-style: serif;
+
+}
+
+.testimonial-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding-top: 0px;
+}
+
+/* Styles for individual testimonial */
+.testimonial {
+  width: 300px;
+  margin: 20px;
+  padding: 20px;
+  border: 1px solid #ccc;
+  text-align: center;
+  background-color: #e4eff7;
+}
+
+.testimonial img {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  margin-bottom: 10px;
+}
+
+.testimonial-text {
+  font-style: italic;
+  color: #3b1515;
+}
+
+.testimonial-company {
+  font-weight: bold;
+}
+
+.cent{
+  padding-top: 5px;
+}
+
+.checked {
+  color: orange;
+}
+
+.contact{
+  font-size: smaller;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.contact-item{
+  padding: 50px;
+}
+

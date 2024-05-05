@@ -1,0 +1,160 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+.sidebar {
+  height: 100%;
+  width: 250px;
+  background-color: #333;
+  position: fixed;
+}
+.content {
+  margin-left: 250px; /* Same as sidebar width */
+  padding: 20px;
+}
+/* Style for sidebar links */
+.sidebar a {
+  display: block;
+  padding: 10px 20px;
+  color: white;
+  text-decoration: none;
+}
+.sidebar a:hover {
+  background-color: #555;
+}
+
+.topnav {
+  
+    background-color: #F9EAF2;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+   .topnav a {
+    float: center;
+    color: #151515;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  .topnav a:hover {
+    background-color: #e7b1b1;
+    color: rgb(20, 19, 19);
+    border-radius: 20%;
+  }
+  
+  .topnav a.active {
+    background-color: #e7b1b1;
+    color: rgb(28, 28, 28);
+    border-radius: 20%;
+    
+  } 
+
+  *{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:'Poppins',sans-serif;
+  }
+  .user-pic{
+    width: 40px;
+    border-radius: 50%;
+    cursor:pointer;
+    margin-left: 30px;
+  }
+
+  .sub-menu-wrap{
+    position: absolute;
+    top: 100%;
+    right: 10%;
+    width: 320px;
+  }
+
+  /*body{
+    background-color: #FFFFFF;
+  }
+
+  .wrapper{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 1500px;
+    display: flex;
+    box-shadow: 0 1px 20px 0 rgba(69,90,100,.08);
+  }
+
+  .wrapper .left{
+    width: 450px;
+    background: linear-gradient(to right,hsl(282, 39%, 58%),#df8dff);
+    padding: 30px 25px;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    text-align: center;
+    color: #fff;
+  }
+
+  .wrapper .right{
+    width: 1000px;
+    background: #fff;
+    padding: 30px 25px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+  }
+
+  span.d {
+    display: inline; /*the default for span*/
+
+    .profile-container:hover .dropdown-content {
+      display: block;
+  }
+
+  .h1{
+
+    text-align: center;
+  
+    }
+  
+    input[type="text"]{
+  
+      width: 50%;
+      padding: 12px 20px;
+      display: inline-block; 
+      border: 1px solid #ccc;
+      border-radius: 10px;
+      box-sizing: border-box;
+      margin: 8px 0;
+      display: inline-block;
+      
+      
+    }
+  
+    input[type="email"]{
+      width: 50%;
+      padding: 12px 20px;
+      display: inline-block; 
+      border: 1px blue;
+      border-radius: 10px;
+      box-sizing: border-box;
+      margin: 8px 0;
+      display: inline-block;
+      background-color : rgb(187, 204, 231)
+      
+  
+    }
+  
+    .h2
+  {  
+    font-family: serif;
+  }
+
+  img{
+    display: block;
+    margin-right: auto;
+    margin-right: auto;
+  }

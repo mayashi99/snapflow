@@ -1,0 +1,124 @@
+
+.topnav {
+  
+  background-color: #F9EAF2;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: relative;
+}
+
+ .topnav a {
+  float: center;
+  color: #151515;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  background-color: #e7b1b1;
+  color: rgb(20, 19, 19);
+  border-radius: 20%;
+}
+
+.topnav a.active {
+  background-color: #e7b1b1;
+  color: rgb(28, 28, 28);
+  border-radius: 20%;
+  
+} 
+.login-btn{
+display: none;
+}
+.signup-btn{
+ display: none;
+}
+.log{
+    color: black;
+    background-color: #F9EAF2;
+    text-align: right;
+    font-size: 20px;
+    float: right;
+    border-color: black;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 20%;
+    
+}
+
+
+
+/*ratings
+body {
+    height: 100vh;
+    display: grid;
+    place-items: center;
+    overflow: hidden;
+ }
+ 
+ .rating {
+    position: relative;
+    width: 180px;
+    background: transparent;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: .3em;
+    padding: 5px;
+    overflow: hidden;
+    border-radius: 20px;
+    box-shadow: 0 0 2px #b3acac;
+ }
+ 
+ .rating__result {
+    position: absolute;
+    top: 0;
+    left: 0;
+    transform: translateY(-10px) translateX(-5px);
+    z-index: -9;
+    font: 3em Arial, Helvetica, sans-serif;
+    color: #ebebeb8e;
+    pointer-events: none;
+ }
+ 
+ .rating__star {
+    font-size: 1.3em;
+    cursor: pointer;
+    color: #dabd18b2;
+    transition: filter linear .3s;
+ }
+ 
+ .rating__star:hover {
+    filter: drop-shadow(1px 1px 4px gold);
+ }
+ 
+ .wrapper{
+   position: absolute;
+   top: 50%;
+   left: 50%;
+   transform: translate(-50%,-50%);
+   width: 1500px;
+   display: flex;
+   box-shadow: 0 1px 20px 0 rgba(69,90,100,.08);
+ }
+
+ .wrapper .left{
+   width: 450px;
+   background: linear-gradient(to right,hsl(282, 39%, 58%),#df8dff);
+   padding: 30px 25px;
+   border-top-left-radius: 5px;
+   border-bottom-left-radius: 5px;
+   text-align: center;
+   color: #fff;
+ }
+
+ .wrapper .right{
+   width: 1000px;
+   background: #fff;
+   padding: 30px 25px;
+   border-top-right-radius: 5px;
+   border-bottom-right-radius: 5px;
+ }*/

@@ -1,0 +1,51 @@
+
+.topnav {
+  
+  background-color: #080808;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+ .topnav a {
+  float: center;
+  color: #def5f9;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  background-color: #cdcdd7;
+  color: rgb(20, 19, 19);
+  border-radius: 20%;
+}
+
+.topnav a.active {
+  background-color: #c3cfe1;
+  color: rgb(28, 28, 28);
+  border-radius: 20%;
+  
+}  
+
+  .maindiv{
+
+     width:1503px ;
+     height:700px ;
+     
+  }
+  input[type="text"]{
+
+    width: 50%;
+    padding: 12px 20px;
+    display: inline-block; 
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    box-sizing: border-box;
+    margin: 8px 0;
+    display: inline-block;
+    
+    
+  }

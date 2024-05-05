@@ -1,0 +1,163 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+.sidebar {
+    height: 100%;
+    width: 250px;
+    background-color: #333;
+    position: fixed;
+}
+.content {
+    margin-left: 250px; /* Same as sidebar width */
+    padding: 20px;
+}
+/* Style for sidebar links */
+.sidebar a {
+    display: block;
+    padding: 10px 20px;
+    color: white;
+    text-decoration: none;
+}
+.sidebar a:hover {
+    background-color: #555;
+}
+
+.topnav {
+  
+  background-color: #204369;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+ .topnav a {
+  float: center;
+  color: #def5f9;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  background-color: #cdcdd7;
+  color: rgb(20, 19, 19);
+  border-radius: 20%;
+}
+
+.topnav a.active {
+  background-color: #c3cfe1;
+  color: rgb(28, 28, 28);
+  border-radius: 20%;
+  
+} 
+.login-btn{
+display: none;
+}
+.signup-btn{
+ display: none;
+}
+.log{
+    color: black;
+    background-color: #204369;
+    text-align: right;
+    font-size: 20px;
+    float: right;
+    border-color: black;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 20%;
+    
+}
+
+  .testimonial-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: left;
+    padding-top: 0px;
+  }
+
+  .testimonial-container-1 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: left;
+    padding-top: 0px;
+  }
+  
+  /* Styles for individual testimonial */
+  .testimonial {
+    width: 200px;
+    height: 100px;
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    text-align: center;
+    background-color: #ddf1e8;
+  }
+  
+  .testimonial img {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+  }
+  
+  .testimonial-text {
+    font-style: italic;
+    color: #3b1515;
+  }
+  
+  .testimonial-company {
+    font-weight: bold;
+  }
+
+
+  .profile-container {
+    position: relative;
+    display: inline-block;
+}
+
+.profile {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+/* user profile*/
+.profile-pic {
+    background-color: #f0e2ec;
+    border-radius: 50%;
+    margin-right: 20px;
+}
+
+.username {
+    font-weight: bold;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 10px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {
+    background-color: #e8d6df;
+}
+
+.profile-container:hover .dropdown-content {
+    display: block;
+}
+
+  

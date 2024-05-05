@@ -1,0 +1,136 @@
+div.a {
+    text-align:center;
+    
+}
+
+
+img  {
+    display:block;
+    margin-left:auto;
+    margin-left:auto;
+} 
+
+.topnav {
+  
+    background-color: #F9EAF2;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+   .topnav a {
+    float: center;
+    color: #151515;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  .topnav a:hover {
+    background-color: #ddd;
+    color: rgb(20, 19, 19);
+  }
+  
+  .topnav a.active {
+    background-color: #e7b1b1;
+    color: rgb(28, 28, 28);
+    border-radius: 20%;
+    
+  } 
+  .login-btn {
+    display: none;
+  }
+  
+  .signup-btn {
+    display: none;
+  }
+  
+  .log {
+    color: black;
+    background-color: #F9EAF2;
+    text-align: right;
+    font-size: 20px;
+    float: right;
+    border-color: black;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 20%;
+  
+  }
+
+  body{
+    background: url("");
+    background-size: 7000px;
+    background-position: center;
+  }
+
+  .container{
+    width: 2500px;
+    height: 1500px;
+    margin: 400px;
+    box-sizing: border-box;
+  }
+
+  .glass{
+    background: linear-gradient(135deg, rgba(255,255,255,0.1),rgba(255,255,255,0));
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border-radius: 2500px;
+    border: 1px solid rgba(255,255,255,0.18);
+    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+    width: auto;
+    height: auto;
+    box-sizing: border-box;
+  }
+
+  /*
+body {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+section {
+    padding: 0 100px;
+    background: url(about1.1.jpeg);
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    flex-direction: row-reverse;
+    text-align: justify;
+
+}
+.box {
+    position: relative;
+    max-width: 600px;
+    padding: 50px;
+    background: rgba(255,255,255,.2);
+    box-shadow: 0 5px 15px rgba(0,0,0,.5);
+}
+.box h2{
+    margin: 0 0 20px;
+    padding: 0;
+    font-size: 48px;
+    text-transform: uppercase;
+    color: #F9EAF2;
+}
+.box p{
+    margin: 0;
+    padding: 0;
+    font-size: 18px;
+}*/
+
+/*body{
+    background:url(/public/images/about1.1.jpeg) no-repeat center center fixed ;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.myBackground {
+  background-color: rgba(255,255,255, 0.5);
+  color: inherit;
+}*/
