@@ -12,7 +12,7 @@
       <img src="<?php echo URLROOT ?>/public/images/logo.png" alt="logo" width="120">
     </div>
     <div>
-      <a href="<?php echo URLROOT ?>/PageController/blog">Home</a>
+      <a href="<?php echo URLROOT ?>/PageController/homepage">Home</a>
       <a href="<?php echo URLROOT ?>/PageController/blog">Blog</a>
       <a href="<?php echo URLROOT ?>/PageController/about">About Us</a>
       <a href="<?php echo URLROOT ?>/PageController/packages">Packages</a>
@@ -30,8 +30,8 @@
   <?php foreach ($data as $organization) :  
   ?>
     <div class="testimonial">
-      <img src="<?php echo URLROOT ?>/public/images/p1.png" alt="company 1">
-      <p class="testimonial-text">"Best photography,Nice photo editing & Good service..."</p>
+      <img src="<?php echo $organization->img_url; ?>">
+      <p class="testimonial-text"><?php echo $organization->description; ?></p>
 
       <span class="fa fa-star checked"></span>
       <span class="fa fa-star checked"></span>

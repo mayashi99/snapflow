@@ -64,6 +64,7 @@ class User
         $this->db->bind(':password', $data['password']);
 
         $userData = $this->db->single();
+        var_dump($userData);
 
         if ($userData->role == 'ADMIN') {
             $this->db->query('SELECT * FROM admin WHERE user_id = :id');
