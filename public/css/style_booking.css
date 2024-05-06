@@ -32,6 +32,13 @@ label {
 	padding-left: 400px;
 }
 
+.padding-2 {
+	padding-top: 20px;
+	padding-right: 370px;
+	padding-bottom: 50px;
+	padding-left: 370px;
+}
+
 .radio-padding {
     padding-left: 80px;
 }
