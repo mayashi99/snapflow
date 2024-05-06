@@ -37,7 +37,7 @@ class UserController extends Controller
 
             $this->userModel->signUp($data);
 
-            header('location:' . URLROOT . '/PageController/signIn');
+           header('location:' . URLROOT . '/PageController/signIn');
         }
     }
 
@@ -56,13 +56,46 @@ class UserController extends Controller
                 
             ];
             $userData=$this->userModel->signIn($data);
-            if ($userData) {
+            var_dump($userData);
+            if ($userData->role=="ADMIN") {
                 session_start();
                 $_SESSION['email'] = $data['email'];
                 $_SESSION['userData'] = $userData;
-                header('location:' . URLROOT . '/PageController/admindashboard/' . $data['email']);
+
+               header('location:' . URLROOT . '/PageController/admintable/');
+              
           
-            };
+            } elseif ($userData->role == 'MANAGER') {
+                session_start();
+                $_SESSION['email'] = $data['email'];
+                $_SESSION['userData'] = $userData;
+
+               header('location:' . URLROOT . '/PageController/managerprofile/');
+              
+            }elseif ($userData->role == 'EDITOR') {
+                session_start();
+                $_SESSION['email'] = $data['email'];
+                $_SESSION['userData'] = $userData;
+
+               header('location:' . URLROOT . '/PageController/editorprofile/');
+
+            }elseif ($userData->role == 'PHOTOGRAPHER') {
+                session_start();
+                $_SESSION['email'] = $data['email'];
+                $_SESSION['userData'] = $userData;
+
+               header('location:' . URLROOT . '/PageController/photographerprofile/');
+               
+            }elseif ($userData->role == 'CUSTOMER') {
+                session_start();
+                $_SESSION['email'] = $data['email'];
+                $_SESSION['userData'] = $userData;
+
+               header('location:' . URLROOT . '/PageController/booking/');
+               
+            }
+             ;
+           
         }
     }
 

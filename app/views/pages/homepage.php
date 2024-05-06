@@ -31,19 +31,19 @@
 
       <div class="mySlides fade">
         <div class="numbertext"></div>
-        <img src="<?php echo URLROOT ?>/public/images/home 1.jpg" alt="wedding 1" width="100%" height="700">
+        <img src="<?php echo URLROOT ?>/public/images/baby 2.jpg" alt="wedding 1" width="100%" height="750">
 
       </div>
 
       <div class="mySlides fade">
         <div class="numbertext"></div>
-        <img src="<?php echo URLROOT ?>/public/images/baby 1.jpg" alt="girl" width="100%" height="700">
+        <img src="<?php echo URLROOT ?>/public/images/baby 1.jpg" alt="girl" width="100%" height="750">
 
       </div>
 
       <div class="mySlides fade">
         <div class="numbertext"></div>
-        <img src="<?php echo URLROOT ?>/public/images/home3.png" alt="wedding 3" width="100%" height="700">
+        <img src="<?php echo URLROOT ?>/public/images/home3.png" alt="wedding 3" width="100%" height="750">
 
       </div>
 
@@ -78,6 +78,9 @@
           <option value="Wedding">Wedding</option>
           <option value="Birthday">Birthday</option>
           <option value="Get">Get</option>
+          <option value="Gradution">Gradution</option>
+          <option value="Party">Party</option>
+          <option value="Corporate">corporate</option>
         </select>
         <button class="search-btn" name="submitSearch" value="submit" type="submit">Search</button>
       </form>

@@ -1,4 +1,9 @@
+body{
+
+  /*background-image: url(https://www.adorama.com/alc/wp-content/uploads/2018/07/wedding-photography-bride-groom-rain.jpg);*/
+}
 table.center {
+    background-color: rgb(243, 246, 248);
     margin-left: auto;
     margin-right: auto;
     border-collapse: collapse;
@@ -72,3 +77,51 @@ table.center {
   .td{
     padding-left: 40px;
   }
+
+  .profile-container {
+    position: relative;
+    display: inline-block;
+    padding-right: 70px;
+}
+
+.profile {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+/* user profile*/
+.profile-pic {
+    background-color: #f0e2ec;
+    border-radius: 50%;
+    margin-right: 20px;
+}
+
+.username {
+    font-weight: bold;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 10px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {
+    background-color: #e8d6df;
+}
+
+.profile-container:hover .dropdown-content {
+    display: block;
+}
+
+  
