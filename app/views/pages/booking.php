@@ -27,15 +27,27 @@
 	<form style="background-color:#E6E6FA">
 	<fieldset>
 
-				<label>Package Type</label>
+				<label>Event Type</label>
 				<select name="packType" id="packType" required>
-					<option selected disabled>Packages</option>
+					<option selected disabled>Events</option>
 					<option value="wedding">Wedding</option>
 					<option value="bday">Birthday</option>
 					<option value="get">Get Together</option>
 					<option value="graduation">Graduation</option>
 					<option value="corporate">Corporate Event</option>
 					<option value="party">Party</option>
+				</select>
+				<br><br>
+
+				<label>Package Type</label>
+				<select name="packType" id="packType" required>
+					<option selected disabled>Packages</option>
+					<option value="1">1</option>
+					<option value="2">2</option>
+					<option value="3">Get 3</option>
+					<option value="4">4</option>
+					<option value="5">5</option>
+					<option value="6">6</option>
 				</select>
 				<br><br>
 				
