@@ -7,16 +7,20 @@
 </head>
 
 <body>
-  <div class="topnav">
+
+<div class="topnav">
     <div class="test">
-      <img src="<?php echo URLROOT ?>/public/images/logo new 2.png" alt="logo" width="100">
+      <img src="<?php echo URLROOT ?>/public/images/logo.png" alt="logo" width="120">
     </div>
     <div>
-      <a class="active" href="<?php echo URLROOT ?>/PageController/home">Home</a>
+      <a class="active" href="#home">Home</a>
       <a href="<?php echo URLROOT ?>/PageController/blog">Blog</a>
       <a href="<?php echo URLROOT ?>/PageController/about">About Us</a>
       <a href="<?php echo URLROOT ?>/PageController/packages">Packages</a>
-      <a href="<?php echo URLROOT ?>/PageController/feedback">Feedback </a>
+    </div>
+    <div class="log">
+      <a href="<?php echo URLROOT ?>/PageController/signup">Signup</a>
+      <a href="<?php echo URLROOT ?>/PageController/signIn">Login</a>
     </div>
   </div>
 
@@ -92,19 +96,19 @@
               <h2 style="font-size: 34px color: black"> manager Request for photographer</h2>
 
               <labal style=" font-size: medium; color: black;font-weight: bold;font-size: 20px">client name</labal>
-              <input type="text" name="" placeholder="" style="width: 50%; padding: 12px 20px; display: inline-block;  border: 1px solid #ccc; 
-   border-radius: 10px; box-sizing: border-box;margin: 8px 0; display: inline-block;"><br><br><br>
+              <input type="text" name="clientname" placeholder="" style="width: 50%; padding: 12px 20px; display: inline-block;  border: 1px solid #ccc; 
+                          border-radius: 10px; box-sizing: border-box;margin: 8px 0; display: inline-block;"><br><br><br>
 
               <labal style=" font-size: medium;color: black; font-weight: bold; font-size: 20px">event name </labal>
-              <input type="text" name="" placeholder="" style="width: 50%; padding: 12px 20px; display: inline-block;  border: 1px solid #ccc; 
-   border-radius: 10px; box-sizing: border-box;margin: 8px 0; display: inline-block;"><br><br><br>
+              <input type="text" name="eventname" placeholder="" style="width: 50%; padding: 12px 20px; display: inline-block;  border: 1px solid #ccc; 
+                     border-radius: 10px; box-sizing: border-box;margin: 8px 0; display: inline-block;"><br><br><br>
 
               <labal style=" font-size: medium; color: black; font-weight: bold;font-size: 20px">location </labal>
               <input type="text" name="" placeholder="" style="width: 50%; padding: 12px 20px; display: inline-block;  border: 1px solid #ccc; 
-   border-radius: 10px; box-sizing: border-box;margin: 8px 0; display: inline-block;"><br><br><br>
+                         border-radius: 10px; box-sizing: border-box;margin: 8px 0; display: inline-block;"><br><br><br>
 
-              <input type="submit" value="submit" style="width: 35%; padding: 12px 20px; display: inline-block; 
-    border: 1px solid #ccc;border-radius: 10px; box-sizing: border-box; margin: 8px 0;background-color:#8d87e8">
+              <input type="submit" value="submit" name="submit"style="width: 35%; padding: 12px 20px; display: inline-block; 
+                                   border: 1px solid #ccc;border-radius: 10px; box-sizing: border-box; margin: 8px 0;background-color:#8d87e8">
 
             </form>
 

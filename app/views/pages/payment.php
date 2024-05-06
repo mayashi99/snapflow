@@ -5,44 +5,6 @@
 	<link rel="stylesheet" href="payment.css">
 </head>
 <body>
-<<<<<<< HEAD
-	
-	<div class="container">
-	<form method="POST" acction="payment<?php echo URLROOT; ?>/paymenController">;
-	<fieldset>
-	<b><lable>We accept credit card or debit card payments only.</lable>
-	<br><br>
-	<lable>Debit/Credit card</lable></b>
-	<br><br>
-	<lable>Name on card</lable>
-	<input type="text" id="cardholder" name="cardholder" value="Card holder's number" required>
-	<br><br>
-	<lable>Debit/Credit card number</lable>
-	<input type="text" id="cardnumber" name="cardnumber" value="0000 0000 0000 0000" required>
-	<br><br>
-	<lable>Expiration date</lable>
-	<input type="date" id="expdate" name="expdate" required>
-	<br><br>
-	<lable>Security code</lable>
-	<input type="text" id="pin" name="pin" size="3" maxlength="3" required>
-	<br><br>
-	
-	<button onclick="back()">Back</button>
-	
-	<div class="right">
-	<input type="submit" value="Pay" name="sumbit>
-	</div>
-	
-	</fieldset>
-	</form>
-	</div>
-	
-	<script>
-	function back(){
-		window.history.back();
-	}
-	</script>
-=======
 
 <div class="topnav">
     <div class="test">
@@ -54,6 +16,7 @@
       <a href="<?php echo URLROOT ?>/PageController/about">About Us</a>
       <a href="<?php echo URLROOT ?>/PageController/packages">Packages</a>
     </div>
+	
     <div class="log">
       <a href="<?php echo URLROOT ?>/PageController/signup">Signup</a>
       <a href="<?php echo URLROOT ?>/PageController/signIn">Login</a>
@@ -133,7 +96,6 @@
             window.history.back();
         }
     </script>
->>>>>>> 70d4c1fa1e5b8facfc75ad783f9b56b3d334c435
 	
 </body>
 </html>

@@ -1,6 +1,6 @@
 <?php
 
-class paymenController{
+class managerrequesttomanagercontroller{
     private $con;
 
     public function __construct() {
@@ -14,13 +14,14 @@ class paymenController{
     public function index() {
         
         if (isset($_POST['submit'])) {
-            $photographer = $_POST[''];
-            $editor = $_POST['editor'];
+            $clientname = $_POST['clientname '];
+            $eventname = $_POST['eventname'];
+            $location = $_POST['location'];
             
-            $sql = "INSERT INTO table() VALUES('')";
+            $sql = "INSERT INTO table request VALUES clientname ='$clientname' ,eventname ='$eventname',location ='$location'";
 
             if ($this->con->query($sql)) {
-                header("Location: pages/payment");
+                header("Location: pages/manager");
                 exit;
             }
             else{
@@ -31,6 +32,6 @@ class paymenController{
 }
 
 // Create an instance of the class
-$controller = new paymenController();
+$controller = new managerrequesttomanagercontroller();
 
 ?>
