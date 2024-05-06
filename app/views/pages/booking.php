@@ -123,6 +123,13 @@
 		</form>
 	</div>
 
+	<div class="but">
+    <button>
+    <a href="<?php echo URLROOT ?>/PageController/feedback">Feedback</a>
+    </button>
+    </div>
+
+
 
 </body>
 </html>

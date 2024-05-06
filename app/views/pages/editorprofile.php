@@ -61,6 +61,12 @@
     </div>
 
     </fieldset>
+
+    <div class="but">
+    <button>
+    <a href="<?php echo URLROOT ?>/PageController/imageupload">Image Upload</a>
+    </button>
+    </div>
 </body>
 
 

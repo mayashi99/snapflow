@@ -29,6 +29,26 @@
     </div>
   </div>
 
+  <div class="row">
+    <div class="column">
+      <img src="<?php echo URLROOT ?>/public/images/blog1.jpg" alt="wedding">
+      <img src="<?php echo URLROOT ?>/public/images/image6.jpg" alt="rock">
+
+
+    </div>
+    <div class="column">
+      <img src="<?php echo URLROOT ?>/public/images/blog2.jpg" alt="uno">
+      <img src="<?php echo URLROOT ?>/public/images/blog3.jpg" alt="ocun">
+      <img src="<?php echo URLROOT ?>/public/images/home 6.jpg" alt="rock">
+    </div>
+
+    <div class="column">
+      <img src="<?php echo URLROOT ?>/public/images/blog4.jpg" alt="falls">
+      <img src="<?php echo URLROOT ?>/public/images/image_2.jpg" alt="ocun">
+      <img src="<?php echo URLROOT ?>/public/images/image7.jpeg" alt="wedding">
+    </div>
+  </div>
+  </div>
 
 
 </body>

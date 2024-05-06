@@ -184,3 +184,43 @@ display: none;
 .ribbon span {
   display: block;
 }
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  border-radius: 8px;
+  padding-top: 20px;
+  
+  
+}
+
+/* Create four equal columns that sits next to each other */
+.column {
+  flex: 20%;
+  padding: 0 4px;
+  border-radius: 8px;
+}
+
+.column img {
+  margin-top: 0px;
+  vertical-align: middle;
+  width: 100%;
+  border-radius: 8px;
+}
+
+/* Responsive layout - makes a two column-layout instead of four columns */
+@media screen and (max-width: 800px) {
+  .column {
+    flex: 50%;
+    max-width: 50%;
+  }
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column {
+    flex: 100%;
+    max-width: 100%;
+  }
+}

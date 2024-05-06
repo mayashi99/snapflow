@@ -1,139 +1,114 @@
 <!DOCTYPE html>
+
 <head>
 	<title>Payment 1</title>
-	
+
 	<link rel="stylesheet" href="payment.css">
 </head>
+
 <body>
-<<<<<<< HEAD
-	
-	<div class="container">
-	<form method="POST" acction="payment<?php echo URLROOT; ?>/paymenController">;
-	<fieldset>
-	<b><lable>We accept credit card or debit card payments only.</lable>
-	<br><br>
-	<lable>Debit/Credit card</lable></b>
-	<br><br>
-	<lable>Name on card</lable>
-	<input type="text" id="cardholder" name="cardholder" value="Card holder's number" required>
-	<br><br>
-	<lable>Debit/Credit card number</lable>
-	<input type="text" id="cardnumber" name="cardnumber" value="0000 0000 0000 0000" required>
-	<br><br>
-	<lable>Expiration date</lable>
-	<input type="date" id="expdate" name="expdate" required>
-	<br><br>
-	<lable>Security code</lable>
-	<input type="text" id="pin" name="pin" size="3" maxlength="3" required>
-	<br><br>
-	
-	<button onclick="back()">Back</button>
-	
-	<div class="right">
-	<input type="submit" value="Pay" name="sumbit>
-	</div>
-	
-	</fieldset>
-	</form>
-	</div>
-	
-	<script>
-	function back(){
-		window.history.back();
-	}
-	</script>
-=======
 
 <div class="topnav">
     <div class="test">
       <img src="<?php echo URLROOT ?>/public/images/logo.png" alt="logo" width="120">
     </div>
     <div>
-      <a class="active" href="#home">Home</a>
+      <a href="<?php echo URLROOT ?>/PageController/blog">Home</a>
       <a href="<?php echo URLROOT ?>/PageController/blog">Blog</a>
       <a href="<?php echo URLROOT ?>/PageController/about">About Us</a>
       <a href="<?php echo URLROOT ?>/PageController/packages">Packages</a>
     </div>
-    <div class="log">
-      <a href="<?php echo URLROOT ?>/PageController/signup">Signup</a>
-      <a href="<?php echo URLROOT ?>/PageController/signIn">Login</a>
+
+
+
+    <div class="profile-container">
+      <div class="profile">
+        <img src="<?php echo URLROOT ?>/public/images/u.png" alt="user" width="50">
+        <span class="username"></span>
+        <div class="dropdown-content">
+          <a href="#">Edit Profile</a>
+          <a href="#">Settings</a>
+          <a href="<?php echo URLROOT ?>/PageController/logout">Logout</a>
+        </div>
+      </div>
     </div>
   </div>
+  </div>
 
-    <div class="padding">
-        <form style="background-color: #ddf1f7">
-        <fieldset>
+	<div class="padding">
+		<form style="background-color: #ddf1f7">
+			<fieldset>
 
-        <h1>We accept credit card or debit card payments only.</h1>
+				<h1>We accept credit card or debit card payments only.</h1>
 
-        <h2>Debit/Credit card</h2>
+				<h2>Debit/Credit card</h2>
 
-        <label>Name on card:</label><br>
-        <div class="input-padding">
-        <input type="text" id="cardholder" name="cardholder" placeholder="Card holder's name" required>
-        </div>
-        <br><br>
+				<label>Name on card:</label><br>
+				<div class="input-padding">
+					<input type="text" id="cardholder" name="cardholder" placeholder="Card holder's name" required>
+				</div>
+				<br><br>
 
-        <label>Debit/Credit card number:</label><br>
-        <div class="input-padding">
-        <input type="text" id="cardnumber" name="cardnumber" placeholder="0000 0000 0000 0000" required>
-        </div>
-        <br><br>
+				<label>Debit/Credit card number:</label><br>
+				<div class="input-padding">
+					<input type="text" id="cardnumber" name="cardnumber" placeholder="0000 0000 0000 0000" required>
+				</div>
+				<br><br>
 
-        <label>Expiration month:</label><br>
-        <div class="input-padding">
-			    <select name="mm" id="mm" required>
-					  <option value="month" selected disabled>MM</option>
-					  <option value="01">01</option>
-					  <option value="02">02</option>
-					  <option value="03">03</option>
-					  <option value="04">04</option>
-					  <option value="05">05</option>
-					  <option value="06">06</option>
-					  <option value="07">07</option>
-					  <option value="08">08</option>
-					  <option value="09">09</option>
-					  <option value="10">10</option>
-					  <option value="11">11</option>
-					  <option value="12">12</option>
-			    </select>
-        </div>
-		
-		  <label>Expiration year:</label><br>
-      <div class="input-padding">
-			   <select name="yy" id="yy" required>
-					  <option value="year" selected disabled>YY</option>
-					  <option value="2024">2024</option>
-					  <option value="2025">2025</option>
-					  <option value="2026">2026</option>
-					  <option value="2027">2027</option>
-					  <option value="2028">2028</option>
-			    </select>
-        </div>
-        <br><br>
+				<label>Expiration month:</label><br>
+				<div class="input-padding">
+					<select name="mm" id="mm" required>
+						<option value="month" selected disabled>MM</option>
+						<option value="01">01</option>
+						<option value="02">02</option>
+						<option value="03">03</option>
+						<option value="04">04</option>
+						<option value="05">05</option>
+						<option value="06">06</option>
+						<option value="07">07</option>
+						<option value="08">08</option>
+						<option value="09">09</option>
+						<option value="10">10</option>
+						<option value="11">11</option>
+						<option value="12">12</option>
+					</select>
+				</div>
 
-        <label>Security code:</label><br>
-        <div class="input-padding">
-        <input type="text" id="pin" name="pin" placeholder="cvc" size="3" maxlength="3" required>
-        </div>
-        <br><br>
-        
-        <button onclick="back()" class="back-btn">Back</button>
-        
-        <div class="right">
-        <input type="submit" value="Pay">
-        </div>
-        
-        </fieldset>
-        </form>
-    </div>
+				<label>Expiration year:</label><br>
+				<div class="input-padding">
+					<select name="yy" id="yy" required>
+						<option value="year" selected disabled>YY</option>
+						<option value="2024">2024</option>
+						<option value="2025">2025</option>
+						<option value="2026">2026</option>
+						<option value="2027">2027</option>
+						<option value="2028">2028</option>
+					</select>
+				</div>
+				<br><br>
 
-    <script>
-        function back(){
-            window.history.back();
-        }
-    </script>
->>>>>>> 70d4c1fa1e5b8facfc75ad783f9b56b3d334c435
-	
+				<label>Security code:</label><br>
+				<div class="input-padding">
+					<input type="text" id="pin" name="pin" placeholder="cvc" size="3" maxlength="3" required>
+				</div>
+				<br><br>
+
+				<button onclick="back()" class="back-btn">Back</button>
+
+				<div class="right">
+					<input type="submit" value="Pay">
+				</div>
+
+			</fieldset>
+		</form>
+	</div>
+
+	<script>
+		function back() {
+			window.history.back();
+		}
+	</script>
+
 </body>
+
 </html>
