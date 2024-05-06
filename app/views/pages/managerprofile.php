@@ -6,14 +6,8 @@
   <link rel="stylesheet" href="<?php echo URLROOT ?>/public/css/style_managerprofile.css">
 </head>
 
-<<<<<<< HEAD
-      
-
-    <div class="topnav">
-=======
 <body>
   <div class="topnav">
->>>>>>> f9944a0b2f6ef472763c1886b5b87bc22d25ea14
     <div class="test">
       <img src="<?php echo URLROOT ?>/public/images/logo new 2.png" alt="logo" width="100">
     </div>

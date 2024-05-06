@@ -14,7 +14,7 @@ class dashboard {
     {
         $this->db->query('SELECT SUM(amount) as total FROM payment where payment_date >= CURDATE() - INTERVAL 1 MONTH');
         $rows = $this->db->resultSet();
-        var_dump( $rows);
+        //var_dump( $rows);
     
         if ($this->db->rowCount() > 0) {
             return $rows;
@@ -24,12 +24,11 @@ class dashboard {
     }
 
 
-
     public  function getbooking()
     {
         $this->db->query('SELECT COUNT(book_id) as event FROM booking where book_date >= CURDATE() - INTERVAL 1 MONTH');
         $rows = $this->db->resultSet();
-        var_dump( $rows);
+        //var_dump( $rows);
     
         if ($this->db->rowCount() > 0) {
             return $rows;

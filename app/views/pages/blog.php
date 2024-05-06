@@ -85,8 +85,8 @@
         <img src="<?php echo URLROOT ?>/public/images/photography-logo.png" alt="photography-logo" width="150" height="150">
       </div>
       <div class="display-text">
-        <?php echo $displayContent; ?>
-        Capture your special moments with our professional photography packages!
+       
+        Capture your special moments with our professional photography Blogs!
       </div>
     </div>
 

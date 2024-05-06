@@ -5,12 +5,12 @@ require_once '../app/models/User.php';
 class UserController extends Controller
 {
 
-    
+
     var $userModel;
 
     public function __construct()
     {
-      
+
         $this->userModel = new User();
     }
 
@@ -37,7 +37,7 @@ class UserController extends Controller
 
             $this->userModel->signUp($data);
 
-           header('location:' . URLROOT . '/PageController/signIn');
+            header('location:' . URLROOT . '/PageController/signIn');
         }
     }
 
@@ -53,55 +53,47 @@ class UserController extends Controller
             $data = [
                 'email' => trim($_POST['email']),
                 'password' => $password,
-                
+
             ];
-            $userData=$this->userModel->signIn($data);
+            $userData = $this->userModel->signIn($data);
             var_dump($userData);
-            if ($userData->role=="ADMIN") {
+            if ($userData->role == "ADMIN") {
                 session_start();
                 $_SESSION['email'] = $data['email'];
                 $_SESSION['userData'] = $userData;
 
-               header('location:' . URLROOT . '/PageController/admintable/');
-              
-          
+                header('location:' . URLROOT . '/PageController/admindashboard/');
             } elseif ($userData->role == 'MANAGER') {
                 session_start();
                 $_SESSION['email'] = $data['email'];
                 $_SESSION['userData'] = $userData;
 
-               header('location:' . URLROOT . '/PageController/managerprofile/');
-              
-            }elseif ($userData->role == 'EDITOR') {
+                header('location:' . URLROOT . '/PageController/managerprofile/');
+            } elseif ($userData->role == 'EDITOR') {
                 session_start();
                 $_SESSION['email'] = $data['email'];
                 $_SESSION['userData'] = $userData;
 
-               header('location:' . URLROOT . '/PageController/editorprofile/');
-
-            }elseif ($userData->role == 'PHOTOGRAPHER') {
+                header('location:' . URLROOT . '/PageController/editorprofile/');
+            } elseif ($userData->role == 'PHOTOGRAPHER') {
                 session_start();
                 $_SESSION['email'] = $data['email'];
                 $_SESSION['userData'] = $userData;
 
-               header('location:' . URLROOT . '/PageController/photographerprofile/');
-               
-            }elseif ($userData->role == 'CUSTOMER') {
+                header('location:' . URLROOT . '/PageController/photographerprofile/');
+            } elseif ($userData->role == 'CUSTOMER') {
                 session_start();
                 $_SESSION['email'] = $data['email'];
                 $_SESSION['userData'] = $userData;
 
-               header('location:' . URLROOT . '/PageController/booking/');
-               
-            }
-             ;
-           
+                header('location:' . URLROOT . '/PageController/booking/');
+            };
         }
     }
 
     public function logout()
     {
-      
+
         session_unset();
         session_destroy();
         header('location:' . URLROOT . '/PageController/index');

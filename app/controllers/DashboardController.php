@@ -15,7 +15,7 @@ class DashboardController extends Controller
     public function getSales()
     {
         $payment = $this->dashboardModel->getSales();
-
+     // var_dump($payment);
         return $payment;
     }
 
@@ -23,7 +23,7 @@ class DashboardController extends Controller
     public function getbooking()
     {
         $event = $this->dashboardModel->getbooking();
-
+     //var_dump($event);
         return $event;
     }
 

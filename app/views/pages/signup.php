@@ -20,7 +20,6 @@
         <br>
         <br>
         <input type="radio" name="role" value="CUSTOMER">Customer
-        <input type="radio" name="role" value="ADMIN">Admin
         <input type="radio" name="role" value="MANAGER">Manager
         <input type="radio" name="role" value="EDITOR">Editor
         <input type="radio" name="role" value="PHOTOGRAPHER">Photographer

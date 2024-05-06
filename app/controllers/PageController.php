@@ -42,9 +42,9 @@ class PageController extends Controller
         $event = $this->dashboardController->getbooking();
         extract($event);
 
-
-        $this->view('pages/admindashboard',$payment);
-        $this->view('pages/admindashboard',$event);
+        $data=array('events'=>$event,'payments'=>$payment);
+        $this->view('pages/admindashboard',$data);
+       
     }
     public function payment()
     {

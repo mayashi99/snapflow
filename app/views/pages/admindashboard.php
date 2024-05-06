@@ -9,7 +9,7 @@
 </head>
 
 <body>
-  <?php var_dump($_SESSION['userData']) ?>
+  
   <div class="topnav">
     <div class="test">
       <img src="<?php echo URLROOT ?>/public/images/logo.png" alt="logo" width="120">
@@ -38,25 +38,25 @@
   </div>
 
   <h1>Admin Dashboard</h1>
-
+  <?php var_dump($data); ?>
   <div class="testimonial-container">
     <div class="testimonial">
       <img src="<?php echo URLROOT ?>/public/images/sales.jpg" alt="sales">
       <p class="testimonial-company">- Sales</p>
-      <p class="testimonial-text">Rs.<?php echo $data[0]->total; ?></p>
+      <p class="testimonial-text">Rs.<?php echo $data['payments'][0]->total; ?></p>
     </div>
 
    
       <div class="testimonial">
         <img src="<?php echo URLROOT ?>/public/images/event.png" alt="event">
         <p class="testimonial-company">- Event Retrieval </p>
-        <p class="testimonial-text"><?php echo $data[0]->count; ?></p>
+        <p class="testimonial-text"><?php echo $data['events'][0]->event; ?></p>
       </div>
 
       <div style="width: 300px;">
         <canvas id="myChart1"></canvas>
       </div>
-
+    <br>
       <div class="chart">
         <div style="width: 500px;">
           <canvas id="myChart"></canvas>
@@ -68,7 +68,12 @@
         <canvas id="myChart2"></canvas>
       </div>
     </div>
-
+    
+    <div class="but">
+    <button>
+    <a href="<?php echo URLROOT ?>/PageController/admintable">Admintable</a>
+    </button>
+    </div>
 
     <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
 

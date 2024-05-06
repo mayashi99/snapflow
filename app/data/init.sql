@@ -171,10 +171,10 @@ CREATE TABLE
 INSERT IGNORE INTO `organization` (`orname`, `description`, `img_url`, `manager_id`)
 VALUES
     ('organi1', 'Best photography,Nice photo editing & Good service...', 'p1.png', 1),
-    ('organi2', 'Best photography,Nice photo editing', 'p2.png', 2),
-    ('organi3', 'Best photography,Nice photo editing', 'p3.png', 3),
-    ('organi4', 'Nice photo editing & Good service...',' p4.png', 4),
-    ('organi5', 'Nice photo editing & Good service...', 'logo new.png', 5);
+    ('organi2', 'Best photography,Nice photo editing...', 'p2.png', 2),
+    ('organi3', 'Best photography,Nice photo editing...', 'p3.png', 3),
+    ('organi4', 'Nice photo editing & Good service...','p4.png', 4),
+    ('organi5', 'Nice photo editing & Good service...', 'p5.png', 5);
 
 CREATE TABLE
     IF NOT EXISTS `editor` (
