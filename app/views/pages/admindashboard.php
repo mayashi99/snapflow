@@ -56,7 +56,7 @@
       <div style="width: 300px;">
         <canvas id="myChart1"></canvas>
       </div>
-    <br>
+    <div class="graph">
       <div class="chart">
         <div style="width: 500px;">
           <canvas id="myChart"></canvas>
@@ -68,6 +68,7 @@
         <canvas id="myChart2"></canvas>
       </div>
     </div>
+  </div>
     
     <div class="but">
     <button>
@@ -76,9 +77,9 @@
     </div>
 
     <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
-
+    
     <script src="<?php echo URLROOT ?>/public/js/barChart.js"></script>
-
+    
     <script src="<?php echo URLROOT ?>/public/js/pieChart.js"></script>
 
 

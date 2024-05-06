@@ -36,6 +36,7 @@
   <?php var_dump($data) ?>
 
   <h1>Photography Oranization Request</h1>
+
   <table class="center">
     <tr>
       <th>Organization Name</th>

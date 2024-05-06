@@ -2,6 +2,7 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
+    background-image: url("https://visme.co/blog/wp-content/uploads/2017/07/50-Beautiful-and-Minimalist-Presentation-Backgrounds-031.jpg");
 }
 .sidebar {
     height: 100%;
@@ -11,7 +12,7 @@ body {
 }
 .content {
     margin-left: 250px; /* Same as sidebar width */
-    padding: 20px;
+    padding: 30px;
 }
 /* Style for sidebar links */
 .sidebar a {
@@ -91,7 +92,7 @@ display: none;
     padding: 20px;
     border: 1px solid #ccc;
     text-align: center;
-    background-color: #d4e0f3;
+    background-color: #748db7;
     border-radius: 10%;
   }
   
@@ -158,3 +159,19 @@ display: none;
     display: block;
 }
 
+.but{
+  padding-left: 20%;
+  background-color: #0f3d54; /* Green */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  padding: 14px 40px;
+  opacity: 0.6;
+  cursor: not-allowed;
+  
+  
+}

@@ -53,8 +53,8 @@ class DeletebyManagerController extends Controller
                 'id' => $_POST['id'],
             ];
 
-            if ($this->organizationModel->deletecustomer($data)) {
-                header('location:' . URLROOT . '/PageController/editorprofile');
+            if ($this->deletebyManagerModel->deletecustomer($data)) {
+                header('location:' . URLROOT . '/PageController/userprofile');
             } else {
                 die('Something went wrong');
             }
