@@ -74,39 +74,39 @@
 	</div>
 
 	<div class="padding-2">	
-	<form style="background-color:#E6E6FA">
-	<fieldset>
-		<h2>Manager request form</h2>
+		<form style="background-color:#E6E6FA">
+		<fieldset>
+			<h2>Manager request form</h2>
 		
-		<label>Date</label>
-			<input type="date" required>
-			<br><br>
+			<label>Date</label>
+				<input type="date" required>
+				<br><br>
 				
-		<label>Venue</label>
-			<input type="text" placeholder="Location" required>
-			<br><br>
+			<label>Venue</label>
+				<input type="text" placeholder="Location" required>
+				<br><br>
 			
-		<label>Package Type</label>
-			<select name="packType" id="packType" required>
-				<option selected disabled>Packages</option>
-				<option value="wedding">Wedding</option>
-				<option value="bday">Birthday</option>
-				<option value="get">Get Together</option>
-				<option value="graduation">Graduation</option>
-				<option value="corporate">Corporate Event</option>
-				<option value="party">Party</option>
-			</select>
-			<br><br>
+			<label>Package Type</label>
+				<select name="packType" id="packType" required>
+					<option selected disabled>Packages</option>
+					<option value="wedding">Wedding</option>
+					<option value="bday">Birthday</option>
+					<option value="get">Get Together</option>
+					<option value="graduation">Graduation</option>
+					<option value="corporate">Corporate Event</option>
+					<option value="party">Party</option>
+				</select>
+				<br><br>
 		
-		<button onclick="back()" class="back-btn">Back</button>
+			<button onclick="back()" class="back-btn">Back</button>
 			
-		<div class="right">
-			<input type="submit" value="Proceed">
-			<br><br>
-		</div>
+			<div class="right">
+				<input type="submit" value="Proceed">
+				<br><br>
+			</div>
 	
-	</fieldset>
-	</form>
+		</fieldset>
+		</form>
 	</div>
 
 
