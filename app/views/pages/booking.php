@@ -42,9 +42,11 @@
 				<label>Organization Name</label>
 				<select name="orgName" id="orgName" required>
 					<option selected disabled>Organizations</option>
-					<option value="p1">.</option>
-					<option value="p2">.</option>
-					<option value="p3">.</option>
+					<option value="p1">Organi-1</option>
+					<option value="p2">Organi-2</option>
+					<option value="p3">Organi-3</option>
+					<option value="p3">Organi-4</option>
+					<option value="p3">Organi-5</option>
 				</select>
 				<br><br>
 				
