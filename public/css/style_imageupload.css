@@ -1,8 +1,117 @@
-.s_button{
-    color: #fcf9f9;
-    background-color:  #c52222;
-    padding: 10px 10px;
-    border-radius: 8px;
-    font-size: 20px;
+
+
+  body {
   
+    background-image: url("https://i.pinimg.com/564x/e4/16/d0/e416d0ae231823a055b5ae6bd4e2b699.jpg");
+    
+   
   }
+
+  .img{
+    padding-left: 45%;
+    padding-bottom: 70%;
+    padding-top: 30%;
+    font-size: 34px;
+    border-radius: 10%;
+  }
+
+
+  .topnav {
+  
+    background-color: #204369;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+   .topnav a {
+    float: center;
+    color: #def5f9;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  .topnav a:hover {
+    background-color: #cdcdd7;
+    color: rgb(20, 19, 19);
+    border-radius: 20%;
+  }
+  
+  .topnav a.active {
+    background-color: #c3cfe1;
+    color: rgb(28, 28, 28);
+    border-radius: 20%;
+    
+  } 
+  .login-btn{
+  display: none;
+  }
+  .signup-btn{
+   display: none;
+  }
+  .log{
+      color: black;
+      background-color: #204369;
+      text-align: right;
+      font-size: 20px;
+      float: right;
+      border-color: black;
+      margin: 4px 2px;
+      cursor: pointer;
+      border-radius: 20%;
+      
+  }
+
+  .profile-container {
+    position: relative;
+    display: inline-block;
+    padding-right: 70px;
+}
+
+.profile {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+/* user profile*/
+.profile-pic {
+    background-color: #f0e2ec;
+    border-radius: 50%;
+    margin-right: 20px;
+}
+
+.username {
+    font-weight: bold;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 10px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {
+    background-color: #e8d6df;
+}
+
+.profile-container:hover .dropdown-content {
+    display: block;
+}
+
+.but{
+  color: #f7f4f4;
+  box-sizing: border-box;
+}

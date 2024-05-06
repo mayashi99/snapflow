@@ -8,37 +8,30 @@
 <body>
 <div class="topnav">
     <div class="test">
-      <img src="<?php echo URLROOT ?>/public/images/logo new.png" alt="logo" width="100">
+      <img src="<?php echo URLROOT ?>/public/images/logo.png" alt="logo" width="120">
     </div>
     <div>
-      <a class="active" href="#home">Home</a>
-      <a href="#Blog">Blog</a>
-      <a href="#About us">About Us</a>
-      <a href="#Packages">Packages</a>
+      <a href="<?php echo URLROOT ?>/PageController/blog">Home</a>
+      <a href="<?php echo URLROOT ?>/PageController/blog">Blog</a>
+      <a href="<?php echo URLROOT ?>/PageController/about">About Us</a>
+      <a href="<?php echo URLROOT ?>/PageController/packages">Packages</a>
     </div>
-       <!--<img src="<?php echo URLROOT ?>/public/images/user1.jpg" class="user-pic" alt="user" width="100">
 
-       <div class="sub-menu-wrap">
-        <div class="sub-menu">
-          <div class="user-info">
-            <img src="images/user1.jpg">
-            <h2>Anumi Inupama</h2>-->
-            <div class="profile-container">
-        <div class="profile">
-        <img src="<?php echo URLROOT ?>/public/images/user.jpg" alt="user" width="50">
-            <span class="username">Anumi Inupama</span>
-            <div class="dropdown-content">
-                <a href="#">Edit Profile</a>
-                <a href="#">Settings</a>
-       
-    <div class="log">
-      <a href="<?php echo URLROOT ?>/PageController/signup">Signup</a>
-      <a href="<?php echo URLROOT ?>/PageController/signIn">Login</a>
+
+
+    <div class="profile-container">
+      <div class="profile">
+        <img src="<?php echo URLROOT ?>/public/images/u.png" alt="user" width="50">
+        <span class="username"></span>
+        <div class="dropdown-content">
+          <a href="#">Edit Profile</a>
+          <a href="#">Settings</a>
+          <a href="<?php echo URLROOT ?>/PageController/logout">Logout</a>
+        </div>
+      </div>
     </div>
-</div>
-</div>
-</div>
-</div>
+  </div>
+  </div>
 
   <!--<div><h4><span class="a"><img src=""></span> User Info</h4></div><br>
   <div><h4><span class="b"><img src="images/editing.jpg"></span>Editing</h4></div><br>
