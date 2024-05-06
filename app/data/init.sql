@@ -170,11 +170,11 @@ CREATE TABLE
 
 INSERT IGNORE INTO `organization` (`orname`, `description`, `img_url`, `manager_id`)
 VALUES
-    ('organi1', 'organi1', 'p1.png', 1),
-    ('organi2', 'organi2', 'p2.png', 2),
-    ('organi3', 'organi3', 'p3.png', 3),
-    ('organi4', 'organi4', 'p4.png', 4),
-    ('organi5', 'organi5', 'logo new.png', 5);
+    ('organi1', 'Best photography,Nice photo editing & Good service...', 'p1.png', 1),
+    ('organi2', 'Best photography,Nice photo editing', 'p2.png', 2),
+    ('organi3', 'Best photography,Nice photo editing', 'p3.png', 3),
+    ('organi4', 'Nice photo editing & Good service...',' p4.png', 4),
+    ('organi5', 'Nice photo editing & Good service...', 'logo new.png', 5);
 
 CREATE TABLE
     IF NOT EXISTS `editor` (
@@ -273,11 +273,11 @@ CREATE TABLE
 
 INSERT IGNORE INTO `booking` (`event_type`, `event_date`, `event_id`, `pack_code`, `organi_id`)
 VALUES
-    ('wedding', '2024-01-01', 1, 100, 1),
-    ('birthday', '2024-01-02', 2, 101, 2),
+    ('wedding', '2024-05-01', 1, 100, 2),
+    ('birthday', '2024-05-02', 2, 101, 2),
     ('shoot', '2024-01-03', 3, 102, 3),
-    ('wedding', '2024-01-04', 4, 100, 4),
-    ('birthday', '2024-01-05', 5, 101, 5);
+    ('wedding', '2024-05-06', 4, 100, 4),
+    ('birthday', '2024-04-05', 5, 101, 5);
 
 CREATE TABLE
     IF NOT EXISTS `payment` (
@@ -291,11 +291,11 @@ CREATE TABLE
 
 INSERT IGNORE INTO `payment` (`amount`, `payment_date`, `book_id`)
 VALUES
-    ( 100000, '2024-01-01', 1),
+    ( 100000, '2024-05-01', 1),
     ( 200000, '2024-01-02', 2),
-    ( 300000, '2024-01-03', 3),
+    ( 300000, '2024-05-03', 3),
     ( 400000, '2024-01-04', 4),
-    ( 500000, '2024-01-05', 5);
+    ( 500000, '2024-05-05', 5);
 
 CREATE TABLE
     IF NOT EXISTS `photo` (
@@ -333,7 +333,7 @@ CREATE TABLE
 
 INSERT IGNORE INTO `organization_photographer` (`organi_id`, `photographer_id`)
 VALUES
-    (1, 2),
+    (3, 2),
     (2, 3),
     (3, 1);
 
@@ -348,7 +348,7 @@ CREATE TABLE
 
 INSERT IGNORE INTO `organization_editor` (`organi_id`, `editor_id`)
 VALUES
-    (1, 1),
+    (2, 1),
     (2, 2),
     (3, 3);
 
@@ -367,6 +367,6 @@ CREATE TABLE
 
 INSERT IGNORE INTO `feedback` (`comment`, `rate`, `organi_id`, `user_id`)
 VALUES
-    ('good', 5, 1, 1),
+    ('good', 5, 2, 1),
     ('bad', 1, 2, 2),
     ('good', 4, 3, 3);

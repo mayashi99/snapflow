@@ -49,6 +49,7 @@ class Organization {
 
     public function deleteOrganization($data)
     {
+        var_dump($data['id']);
         $this->db->query('DELETE FROM organization WHERE organi_id = :id');
         $this->db->bind(':id', $data['id']);
         if ($this->db->execute()) {
