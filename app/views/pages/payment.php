@@ -23,7 +23,7 @@
   </div>
 
     <div class="padding">
-        <form style="background-color:#ddf1f7">
+        <form style="background-color: #ddf1f7">
         <fieldset>
 
         <h1>We accept credit card or debit card payments only.</h1>
