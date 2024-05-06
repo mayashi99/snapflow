@@ -7,7 +7,7 @@
 </head>
 
 <body>
-
+	
 <div class="topnav">
     <div class="test">
       <img src="<?php echo URLROOT ?>/public/images/logo.png" alt="logo" width="120">
@@ -23,6 +23,7 @@
       <a href="<?php echo URLROOT ?>/PageController/signIn">Login</a>
     </div>
   </div>
+
 
 	<div class="padding">
 		<form style="background-color: #ddf1f7">
