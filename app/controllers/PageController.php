@@ -129,4 +129,26 @@ class PageController extends Controller
         $this->view('pages/editorprofile');
     }
 
+    public function newpackage()
+    {
+        $this->view("pages/newpackage");
+    }
+
+    public function newpackagereturn($data)
+    {
+        $this->view("pages/newpackage", $data);
+    }
+    public function packagetable()
+    {
+        $this->view('pages/packagetable');
+    }
+    public function editpackage()
+    {
+        $this->view("pages/editpackage");
+    }
+    public function editpackagereturn($data)
+    {
+        $this->view("pages/editpackage", $data);
+    }
+
 }
