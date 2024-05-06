@@ -45,6 +45,20 @@ class DeletebyManagerController extends Controller
             }
         }
     }
+    public function deletecustomer()
+    {
 
+        if (isset($_POST['submitDelete'])) {
+            $data = [
+                'id' => $_POST['id'],
+            ];
+
+            if ($this->organizationModel->deletecustomer($data)) {
+                header('location:' . URLROOT . '/PageController/editorprofile');
+            } else {
+                die('Something went wrong');
+            }
+        }
+    }
 
 }

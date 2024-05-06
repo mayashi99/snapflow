@@ -128,4 +128,5 @@ class PageController extends Controller
     {
         $this->view('pages/editorprofile');
     }
+
 }
