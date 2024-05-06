@@ -78,30 +78,27 @@ display: none;
     flex-wrap: wrap;
     justify-content: left;
     padding-top: 0px;
+   
   }
 
-  .testimonial-container-1 {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: left;
-    padding-top: 0px;
-  }
+  
   
   /* Styles for individual testimonial */
   .testimonial {
     width: 200px;
-    height: 100px;
+    height: 200px;
     margin: 20px;
     padding: 20px;
     border: 1px solid #ccc;
     text-align: center;
-    background-color: #ddf1e8;
+    background-color: #d4e0f3;
+    border-radius: 10%;
   }
   
   .testimonial img {
     width: 60px;
     height: 60px;
-    border-radius: 50%;
+   
     margin-bottom: 10px;
   }
   
@@ -161,4 +158,3 @@ display: none;
     display: block;
 }
 
-  

@@ -57,7 +57,7 @@ class OrganizationController extends Controller
         }
     }
 
-
+    
     public function searchOrganization()
     {
 

@@ -1,29 +1,46 @@
 body{
 
-  /*background-image: url(https://www.adorama.com/alc/wp-content/uploads/2018/07/wedding-photography-bride-groom-rain.jpg);*/
+  background-image: url(https://www.adorama.com/alc/wp-content/uploads/2018/07/wedding-photography-bride-groom-rain.jpg);
+  color: #f1ecec;
 }
 table.center {
-    background-color: rgb(243, 246, 248);
+   background-color: #c3cfe1;
     margin-left: auto;
     margin-right: auto;
     border-collapse: collapse;
-    width: 100%;
+    width: 70%;
     height: 70%;
+    border-color: #f6f9ff;
     
   }
 
   table, th, td {
-    border: 2px solid rgb(70, 51, 67);
+    border: 2px solid rgb(252, 245, 251);
     text-align: left;
     padding: 8px;
-    color: #5448ad;
+    color: #060650;
+    font-size: 20px;
 
   }
 
   .Accept{
-    background-color: rgb(237, 182, 236);
-    
+    background-color: rgb(48, 126, 61);
+    color: #faf8f8;
+    border-radius: 8px;
+    display: inline-block;
+    font-size: 16px;
+    padding: 5px 22px;
   }
+
+  .Delete{
+    background-color: #b83030;
+    color: #faf8f8;
+    border-radius: 8px;
+    display: inline-block;
+    font-size: 16px;
+    padding: 5px 22px;
+  }
+  
 
   .topnav {
   
@@ -88,6 +105,7 @@ table.center {
     display: flex;
     align-items: center;
     cursor: pointer;
+    color: #fcfcfc;
 }
 /* user profile*/
 .profile-pic {
@@ -123,5 +141,11 @@ table.center {
 .profile-container:hover .dropdown-content {
     display: block;
 }
+
+.h1{
+  color: #061a2b;
+  text-align: justify;
+}
+
 
   

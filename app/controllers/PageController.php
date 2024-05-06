@@ -1,14 +1,18 @@
 <?php
 require_once '../app/controllers/OrganizationController.php';
+require_once '../app/controllers/DashboardController.php';
 
 class PageController extends Controller
 {
-    var $adminModel;
+    
     var $organizationController;
+    var $dashboardController;
 
     public function __construct()
     {
         $this->organizationController = new OrganizationController();
+        $this->dashboardController = new DashboardController();
+        
     }
 
     public function index()
@@ -27,11 +31,20 @@ class PageController extends Controller
     }
     public function admindashboard()
     {
-        session_start();
-        if (!isset($_SESSION['email'])) {
-            header('Location: ' . URLROOT . '/PageController/login');
-        }
-        $this->view('pages/admindashboard');
+       // session_start();
+        //if (!isset($_SESSION['email'])) {
+          //  header('Location: ' . URLROOT . '/PageController/login');
+       // }
+        
+        $payment = $this->dashboardController->getSales();
+        extract($payment);
+
+        $event = $this->dashboardController->getbooking();
+        extract($event);
+
+        $data=array('events'=>$event,'payments'=>$payment);
+        $this->view('pages/admindashboard',$data);
+       
     }
     public function payment()
     {

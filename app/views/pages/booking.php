@@ -27,9 +27,9 @@
 	<form style="background-color:#E6E6FA">
 	<fieldset>
 
-				<label>Package Type</label>
+				<label>Event Type</label>
 				<select name="packType" id="packType" required>
-					<option selected disabled>Packages</option>
+					<option selected disabled>Events</option>
 					<option value="wedding">Wedding</option>
 					<option value="bday">Birthday</option>
 					<option value="get">Get Together</option>
@@ -38,13 +38,27 @@
 					<option value="party">Party</option>
 				</select>
 				<br><br>
+
+				<label>Package Type</label>
+				<select name="packType" id="packType" required>
+					<option selected disabled>Packages</option>
+					<option value="1">1</option>
+					<option value="2">2</option>
+					<option value="3">Get 3</option>
+					<option value="4">4</option>
+					<option value="5">5</option>
+					<option value="6">6</option>
+				</select>
+				<br><br>
 				
 				<label>Organization Name</label>
 				<select name="orgName" id="orgName" required>
 					<option selected disabled>Organizations</option>
-					<option value="p1">.</option>
-					<option value="p2">.</option>
-					<option value="p3">.</option>
+					<option value="p1">Organi-1</option>
+					<option value="p2">Organi-2</option>
+					<option value="p3">Organi-3</option>
+					<option value="p3">Organi-4</option>
+					<option value="p3">Organi-5</option>
 				</select>
 				<br><br>
 				
@@ -74,39 +88,39 @@
 	</div>
 
 	<div class="padding-2">	
-	<form style="background-color:#E6E6FA">
-	<fieldset>
-		<h2>Manager request form</h2>
+		<form style="background-color:#E6E6FA">
+		<fieldset>
+			<h2>Manager request form</h2>
 		
-		<label>Date</label>
-			<input type="date" required>
-			<br><br>
+			<label>Date</label>
+				<input type="date" required>
+				<br><br>
 				
-		<label>Venue</label>
-			<input type="text" placeholder="Location" required>
-			<br><br>
+			<label>Venue</label>
+				<input type="text" placeholder="Location" required>
+				<br><br>
 			
-		<label>Package Type</label>
-			<select name="packType" id="packType" required>
-				<option selected disabled>Packages</option>
-				<option value="wedding">Wedding</option>
-				<option value="bday">Birthday</option>
-				<option value="get">Get Together</option>
-				<option value="graduation">Graduation</option>
-				<option value="corporate">Corporate Event</option>
-				<option value="party">Party</option>
-			</select>
-			<br><br>
+			<label>Package Type</label>
+				<select name="packType" id="packType" required>
+					<option selected disabled>Packages</option>
+					<option value="wedding">Wedding</option>
+					<option value="bday">Birthday</option>
+					<option value="get">Get Together</option>
+					<option value="graduation">Graduation</option>
+					<option value="corporate">Corporate Event</option>
+					<option value="party">Party</option>
+				</select>
+				<br><br>
 		
-		<button onclick="back()" class="back-btn">Back</button>
+			<button onclick="back()" class="back-btn">Back</button>
 			
-		<div class="right">
-			<input type="submit" value="Proceed">
-			<br><br>
-		</div>
+			<div class="right">
+				<input type="submit" value="Proceed">
+				<br><br>
+			</div>
 	
-	</fieldset>
-	</form>
+		</fieldset>
+		</form>
 	</div>
 
 

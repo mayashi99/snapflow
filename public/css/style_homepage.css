@@ -184,6 +184,7 @@ display: none;
   flex-wrap: wrap;
   justify-content: center;
   padding-top: 0px;
+  border-radius: 10%;
 }
 
 /* Styles for individual testimonial */
@@ -194,6 +195,7 @@ display: none;
   border: 1px solid #ccc;
   text-align: center;
   background-color: #e4eff7;
+ 
 }
 
 .testimonial img {

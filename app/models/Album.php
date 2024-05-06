@@ -1,6 +1,6 @@
 <?php
 
-class AssignEditor {
+class Album {
 
  private $db;
     private static $instance;
@@ -15,10 +15,10 @@ class AssignEditor {
 
 
 
-    public function acceptEditor($data)
+    public function updateAlbum($data)
     {
         var_dump($data['id']);
-        $this->db->query('UPDATE editor SET accepted = 1 WHERE user_id = :id');
+        $this->db->query('UPDATE photo SET accepted = 1 WHERE album_code = :id');
         $this->db->bind(':id', $data['id']);
         if ($this->db->execute()) {
             return true;
