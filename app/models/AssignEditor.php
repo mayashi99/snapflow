@@ -10,13 +10,6 @@ class AssignEditor {
         $this->db = new Database;
     }
 
-    public static function getInstance()
-    {
-        if (!isset(self::$instance)) {
-            self::$instance = new AssignEditor();
-        }
-        return self::$instance;
-    }
 
 
 

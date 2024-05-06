@@ -22,7 +22,7 @@ class DeletebyManagerController extends Controller
                 'id' => $_POST['id'],
             ];
 
-            if ($this->organizationModel->deletePhotographer($data)) {
+            if ($this->deletebyManagerModel->deletePhotographer($data)) {
                 header('location:' . URLROOT . '/PageController/photographerprofile');
             } else {
                 die('Something went wrong');
@@ -38,7 +38,7 @@ class DeletebyManagerController extends Controller
                 'id' => $_POST['id'],
             ];
 
-            if ($this->organizationModel->deleteEditor($data)) {
+            if ($this->deletebyManagerModel->deleteEditor($data)) {
                 header('location:' . URLROOT . '/PageController/editorprofile');
             } else {
                 die('Something went wrong');
