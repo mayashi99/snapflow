@@ -8,7 +8,7 @@
 <body>
 	
 	<div class="container">
-	<form>
+	<form method="POST" acction="payment<?php echo URLROOT; ?>/paymenController">;
 	<fieldset>
 	<b><lable>We accept credit card or debit card payments only.</lable>
 	<br><br>
@@ -30,7 +30,7 @@
 	<button onclick="back()">Back</button>
 	
 	<div class="right">
-	<input type="submit" value="Pay">
+	<input type="submit" value="Pay" name="sumbit>
 	</div>
 	
 	</fieldset>
