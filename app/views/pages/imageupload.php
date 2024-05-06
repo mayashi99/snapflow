@@ -38,11 +38,14 @@
     </div>
   </div>
   </div>
+<br>
+<div class="cent">
+  <img src="<?php echo URLROOT ?>/public/images/uplod.jpg" alt="image">
     
 
     <div class="img">
         
-        <form action="<?php echo URLROOT; ?>/ImageController/uploadimage" method="post" enctype="multipart/form-data">
+        <form action="<?php echo URLROOT; ?>/ImageController/uploadimage" method="post" enctype="multipart/form-data" >
             Select image to upload:
             <input type="file" name="fileToUpload" id="fileToUpload"><br><br>
             <div class="but">
@@ -50,6 +53,7 @@
             </div>
         </form>
     </div>
+</div>
 
 </body>
 
