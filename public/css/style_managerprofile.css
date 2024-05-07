@@ -1,7 +1,7 @@
 
 .topnav {
   
-  background-color: #080808;
+  background-color: #204369;
   text-align: center;
   display: flex;
   align-items: center;
@@ -28,7 +28,26 @@
   color: rgb(28, 28, 28);
   border-radius: 20%;
   
-}  
+} 
+.login-btn{
+display: none;
+}
+.signup-btn{
+ display: none;
+}
+.log{
+    color: black;
+    background-color: #204369;
+    text-align: right;
+    font-size: 20px;
+    float: right;
+    border-color: black;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 20%;
+    
+}
+
 
   .maindiv{
 
@@ -48,4 +67,9 @@
     display: inline-block;
     
     
+  }
+
+  .fex{
+    display: flex;
+    padding-top: 0;
   }
