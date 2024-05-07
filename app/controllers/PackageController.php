@@ -1,5 +1,7 @@
 <?php
 
+require_once '../app/models/Package.php';
+
 class PackageController extends Controller
 {
     private $packageModel;

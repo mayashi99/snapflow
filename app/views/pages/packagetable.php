@@ -1,4 +1,6 @@
 <?php
+require_once '../app/models/Package.php';
+
 // Dummy data for demonstration
 $pack = new Package;
 $packages = $pack->getPackages();

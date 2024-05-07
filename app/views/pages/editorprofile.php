@@ -11,12 +11,12 @@
 
 <div class="topnav">
     <div class="test">
-      <img src="<?php echo URLROOT ?>/public/images/logo new.png" alt="logo" width="100">
+      <img src="<?php echo URLROOT ?>/public/images/logo.png" alt="logo" width="120">
     </div>
     <div>
-      <a class="active" href="#home">Home</a>
+      <a href="<?php echo URLROOT ?>/PageController/homepage">Home</a>
       <a href="<?php echo URLROOT ?>/PageController/blog">Blog</a>
-      <a href="<?php echo URLROOT ?>/PageController/about us">About Us</a>
+      <a href="<?php echo URLROOT ?>/PageController/about">About Us</a>
       <a href="<?php echo URLROOT ?>/PageController/packages">Packages</a>
     </div>
     <div class="log">
