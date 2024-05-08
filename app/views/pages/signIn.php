@@ -16,7 +16,7 @@
 
             <div class="input-group">
                 <h2>Login</h2>
-                <label for="username">Username:</label>
+                <label for="username">Email:</label>
                 <input type="text" name="email" placeholder="Email">
             </div>
             <div class="input-group">

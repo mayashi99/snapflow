@@ -83,33 +83,33 @@ button:hover {
 
 .topnav {
   
-	background-color: #204369;
-	text-align: center;
-	display: flex;
-	align-items: center;
-	justify-content: space-between;
+    background-color: #204369;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
   }
   
    .topnav a {
-	float: center;
-	color: #def5f9;
-	text-align: center;
-	padding: 14px 16px;
-	text-decoration: none;
-	font-size: 17px;
+    float: center;
+    color: #def5f9;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
   }
   
   .topnav a:hover {
-	background-color: #cdcdd7;
-	color: rgb(20, 19, 19);
-	border-radius: 20%;
+    background-color: #cdcdd7;
+    color: rgb(20, 19, 19);
+    border-radius: 20%;
   }
   
   .topnav a.active {
-	background-color: #c3cfe1;
-	color: rgb(28, 28, 28);
-	border-radius: 20%;
-	
+    background-color: #c3cfe1;
+    color: rgb(28, 28, 28);
+    border-radius: 20%;
+    
   } 
   .login-btn{
   display: none;
@@ -118,18 +118,38 @@ button:hover {
    display: none;
   }
   .log{
-	  color: black;
-	  background-color: #204369;
-	  text-align: right;
-	  font-size: 20px;
-	  float: right;
-	  border-color: black;
-	  margin: 4px 2px;
-	  cursor: pointer;
-	  border-radius: 20%;
-	  
+      color: black;
+      background-color: #204369;
+      text-align: right;
+      font-size: 20px;
+      float: right;
+      border-color: black;
+      margin: 4px 2px;
+      cursor: pointer;
+      border-radius: 20%;
+      
   }
 
+  .profile-container {
+    position: relative;
+    display: inline-block;
+    padding-right: 70px;
+}
+
+.profile {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+/* user profile*/
+.profile-pic {
+    background-color: #f0e2ec;
+    border-radius: 50%;
+    margin-right: 20px;
+}
+
+.username {
+    font-weight: bold;
   .but{
 	padding-left: 20%;
 	background-color: #0f3d54; /* Green */

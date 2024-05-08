@@ -65,6 +65,10 @@
     <div class="but">
     <button>
     <a href="<?php echo URLROOT ?>/PageController/imageupload">Image Upload</a>
+    </button> 
+
+    <button>
+    <a href="<?php echo URLROOT ?>/PageController/feedback">Viwe the Feedback</a>
     </button>
     </div>
 </body>
