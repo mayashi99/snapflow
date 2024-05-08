@@ -94,29 +94,11 @@ $packages = $pack->getPackages();
                     <td>
                         <a class="update-button" href="<?php echo URLROOT ?>/PageController/editpackage?code=<?php echo $package->pack_code; ?>">Edit</a>
                         <a class="delete-button" href="<?php echo URLROOT ?>/PackageController/delete?code=<?php echo $package->pack_code; ?>">Delete</a>
-                        <!-- <form method="post" action="<?php echo URLROOT; ?>/PackageController/delete">
-                            <input type="hidden" name="id" value="<?php echo $row->pack_code; ?>">
-                            <button class="delete-button" name="deletepack" value="deletepack" type="submit">Delete</button>
-                        </form> -->
-                        <!-- <button class="update-button" onclick="updatePackage(<?php echo $package->id; ?>)">Update</button>
-                        <button class="delete-button" onclick="deletePackage(<?php echo $package->id; ?>)">Delete</button> -->
                     </td>
                 </tr>
             <?php endforeach; ?>
         </tbody>
     </table>
-
-    <!-- <script>
-        function updatePackage(id) {
-            // Add logic to update package with the given id
-            console.log('Update package with id:', id);
-        }
-
-        function deletePackage(id) {
-            // Add logic to delete package with the given id
-            console.log('Delete package with id:', id);
-        }
-    </script> -->
 
 </body>
 

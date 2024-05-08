@@ -4,53 +4,27 @@
 <head>
    <meta charset="UTF-8">
    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="stylesheet" href="<?php echo URLROOT ?>/public/css/style_newpackage.css">
     <title>Create New Package</title>
    
-    
-    <style>
-        body {
-            margin: 0;
-            padding: 0;
-        }
-        .container {
-            position: absolute;
-            top: 0;
-            left: 0;
-            width: 100%;
-            height: 100vh;
-            display: flex;
-            justify-content: center;
-            align-items: flex-start;
-            flex-direction: column;
-            padding-top: 50px; /* Adjust as needed */
-            box-sizing: border-box;
-            background-color: #f0f0f0; /* Background color for demo */
-        }
-        form {
-            width: 300px; /* Set the width of the form */
-            margin: 0 auto; /* Center the form horizontally */
-            background-color: #fff; /* Form background color */
-            padding: 20px; /* Form padding */
-            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Form shadow */
-        }
-        table {
-            width: 100%;
-            border-collapse: collapse;
-            margin-top: 20px;
-        }
-        th, td {
-            border: 1px solid #ddd;
-            padding: 8px;
-            text-align: left;
-        }
-        th {
-            background-color: #f2f2f2;
-        }
-    </style>
 </head>
 
 <body>
-
+<div class="topnav">
+    <div class="test">
+      <img src="<?php echo URLROOT ?>/public/images/logo.png" alt="logo" width="120">
+    </div>
+    <div>
+      <a href="<?php echo URLROOT ?>/PageController/homepage">Home</a>
+      <a href="<?php echo URLROOT ?>/PageController/blog">Blog</a>
+      <a href="<?php echo URLROOT ?>/PageController/about">About Us</a>
+      <a href="<?php echo URLROOT ?>/PageController/packages">Packages</a>
+    </div>
+    <div class="log">
+      <a href="<?php echo URLROOT ?>/PageController/signup">Signup</a>
+      <a href="<?php echo URLROOT ?>/PageController/signIn">Login</a>
+    </div>
+  </div>
 
 
 <div class="container">
