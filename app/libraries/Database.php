@@ -28,13 +28,13 @@ class Database{
         }
 
         // Check if the database exists, if not, create it
-        $this->createDatabase();
+       // $this->createDatabase();
 
          //Select the database
-       $this->selectDatabase();
+       //$this->selectDatabase();
 
          //Create tables if they don't exist
-        $this->createTables();
+        //$this->createTables();
     }
 
     //to write qeries

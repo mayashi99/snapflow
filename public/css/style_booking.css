@@ -150,20 +150,30 @@ button:hover {
 
 .username {
     font-weight: bold;
-  .but{
-	padding-left: 20%;
-	background-color: #0f3d54; /* Green */
-	border: none;
-	color: white;
-	padding: 15px 32px;
-	text-align: center;
-	text-decoration: none;
-	display: inline-block;
-	font-size: 16px;
-	padding: 14px 40px;
-	opacity: 0.6;
-	cursor: not-allowed;
-	
-	
-  }
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 10px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {
+    background-color: #e8d6df;
+}
+
+.profile-container:hover .dropdown-content {
+    display: block;
+}
+
   

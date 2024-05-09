@@ -17,7 +17,7 @@
       <img src="<?php echo URLROOT ?>/public/images/logo.png" alt="logo" width="120">
     </div>
     <div>
-      <a href="<?php echo URLROOT ?>/PageController/blog">Home</a>
+      <a href="<?php echo URLROOT ?>/PageController/homepage">Home</a>
       <a href="<?php echo URLROOT ?>/PageController/blog">Blog</a>
       <a href="<?php echo URLROOT ?>/PageController/about">About Us</a>
       <a href="<?php echo URLROOT ?>/PageController/packages">Packages</a>
