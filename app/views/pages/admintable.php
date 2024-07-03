@@ -33,9 +33,10 @@
   </div>
   </div>
 
-  <?php var_dump($data) ?>
 
+<div class="h" >
   <h1>Photography Oranization Request</h1>
+</div>
 
   <table class="center">
     <tr>

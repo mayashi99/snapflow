@@ -25,11 +25,29 @@
       <a href="<?php echo URLROOT ?>/PageController/signIn">Login</a>
     </div>
   </div>
-  </div><br><br>
+  </div>
   <div class="a">
   <h1>About Us</h1>
 </div>
-    <img src="<?php echo URLROOT ?>/public/images/about_us.jpeg" alt="wedding 1" width="100%" height="100%" >
+  <div class="container1 glass">
+<h2>Our Mission.</h2>
+<h3><p>"To capture the essence of every moment preserving memories that transcend time,
+   through exceptional event photography."</p></h3>
+</div><br>
+<div class="container2 glass">
+<h2>Our Vision.</h2>
+<h3><p>"We envision a world where every event big or small, is immortalized 
+  through the lens fostering connections, preserving legacies, and spreading joy
+   through the art of photography."</p>
+</h3><br>
+<h2>Community & Engagement.</h2>
+<h3><p>Our platform cultivates a thriving community where photographers
+   and clients converge, exchanging expertise and inspiration. Through seamless 
+   event photography management, we foster collaboration, sparking creativity, and ensuring 
+   every moment is captured with passion and precision, enriching experiences and forging lasting connections.</p>
+</h3>
+</div> 
+<img src="<?php echo URLROOT ?>/public/images/about_us.jpeg" alt="wedding 1" width="100%" height="100%" >
     <!--<img src="about2.jpeg" alt="collage of girls"  width="330px" height="330px">-->
     <!--<style>
         img  {
@@ -38,17 +56,6 @@
             margin-left:auto;
         }
     </style>-->
-  <div class="container glass">
-<h2>Our Mission.</h2>
-<p>"To capture the essence of every moment, preserving memories that transcend time, through exceptional event photography."</p>
-<br><br>
-<h2>Our Vision.</h2>
-<p>"We envision a world where every event, big or small, is immortalized through the lens, fostering connections, preserving legacies, and spreading joy through the art of photography."</p>
-<br><br>
-<h2>Community & Engagement.</h2>
-<p>Our platform cultivates a thriving community where photographers and clients converge, exchanging expertise and inspiration. Through seamless event photography management, we foster collaboration, sparking creativity, and ensuring every moment is captured with passion and precision, enriching experiences and forging lasting connections.</p>
-<br><br>
-</div> </div> 
 </body>
 <!--
 <div id="box">

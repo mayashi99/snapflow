@@ -136,15 +136,15 @@ table.center {
 }
 
 .dropdown-content a:hover {
-    background-color: #e8d6df;
+    background-color: #d2eaf4;
 }
 
 .profile-container:hover .dropdown-content {
     display: block;
 }
 
-.h1{
-  color: #608db5;
+.h{
+  color: #051b2d;
   text-align: justify;
 }
 

@@ -37,7 +37,7 @@
 
       <div class="mySlides fade">
         <div class="numbertext"></div>
-        <img src="<?php echo URLROOT ?>/public/images/baby 1.jpg" alt="girl" width="100%" height="750">
+        <img src="<?php echo URLROOT ?>/public\images\86699349-a8a2-43d2-ba09-8a034c35faa4 (1).jpg" alt="girl" width="100%" height="1100">
 
       </div>
 

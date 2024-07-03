@@ -38,7 +38,7 @@
   </div>
 
   <h1>Admin Dashboard</h1>
-  <?php var_dump($data); ?>
+  
   <div class="testimonial-container">
     <div class="testimonial">
       <img src="<?php echo URLROOT ?>/public/images/sales.jpg" alt="sales">
