@@ -1,0 +1,135 @@
+/* Reset default margin and padding */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Ensure html and body take up full height */
+html,
+body {
+    height: 100%;
+    font-family: Arial, sans-serif;
+}
+
+/* Background settings */
+body {
+    background-image: url('https://static.storyweaver.org.in/illustrations/58816/large/3.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+}
+
+/* Top navigation styles */
+.topnav {
+    width: 100%;
+    background-color: #204369;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: fixed;
+    top: 0;
+}
+
+
+.topnav a {
+    color: #def5f9;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.topnav a:hover {
+    background-color: #cdcdd7;
+    color: rgb(20, 19, 19);
+    border-radius: 20%;
+}
+
+.topnav a.active {
+    background-color: #c3cfe1;
+    color: rgb(28, 28, 28);
+    border-radius: 20%;
+}
+
+.log {
+    color: black;
+    background-color: #204369;
+    text-align: right;
+    font-size: 20px;
+    float: right;
+    border-color: black;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 20%;
+}
+
+/* Container for the content to center vertically */
+.content {
+    flex-grow: 1;
+    /* This will make sure the container takes the available space */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 60px;
+    /* To avoid overlap with fixed topnav */
+}
+
+/* Header styles */
+h1 {
+    font-family: luminari, fantasy;
+    margin-bottom: 60px;
+    font-size: 40px;
+    color: black;
+    -webkit-text-stroke: 1px black;
+    text-shadow: 0px 2px 4px #204369;
+    font-style: inherit;
+}
+
+/* Table styles */
+.table-container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+table {
+    width: 60%;
+    border-collapse: collapse;
+    background-color: rgb(244, 235, 235);
+    margin: 20px 0;
+}
+
+th,
+td {
+    border: 1px solid #ddd;
+    padding: 12px;
+    text-align: center;
+    font-size: 12px;
+}
+
+th {
+    background-color: #837c7c;
+    color: white;
+    font-size: 15px;
+}
+
+/* Button styles */
+.update-button,
+.delete-button {
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+    margin-right: 5px;
+    border-radius: 5px;
+}
+
+.update-button {
+    background-color: #4b88c1;
+}
+
+.delete-button {
+    background-color: #0e6bdd;
+}
